@@ -1,0 +1,29 @@
+[
+    {
+      "_id": "64bb809471393e09d8381485",
+      "college_image": "https://i.ibb.co/PCXqZbW/cumilla.jpg",
+      "college_name": "Cumilla Polytechnic Institute",
+      "admission_dates": "10-5-2023",
+      "events": "Skill Events",
+      "research_history": "Cumilla Polytechnic Institute is one of the oldest and largest polytechnic institute in Bangladesh, and was established in 1962. This is the first government ICT based polytechnic institute for diploma engineering courses in the country.The main campus consists of two three-storey buildings, eight large workshop buildings. In front of main building has a Shaheed Minar, a beautiful fountain and a statue of the Bangabandhu Sheikh Mujibur Rahman on the left",
+      "sports": "Cricket, Football"
+    },
+    {
+      "_id": "64bb80946f814ed915d98f77",
+      "college_image": "https://i.ibb.co/XtfKGGz/dhaka.jpg",
+      "college_name": "Dhaka Polytechnic Institute",
+      "admission_dates": "15-4-2023",
+      "events": "Sports Events",
+      "research_history": "Dhaka Polytechnic Institute is the premier and pioneer institution of technology and innovation in this region to produce such mid-level technical manpower i.e. Diploma Engineers in Bangladesh. Since its establishment in 1955 with only 120 students in four technologies, the Institute has consistently provided top quality education and training to students of the country. The Institute has therefore played a central role in the development of the country.",
+      "sports": "Cricket, Badminton"
+    },
+    {
+      "_id": "64bb809493dedfc2cb8d92f3",
+      "college_image": "https://i.ibb.co/0BwXBVf/feni.jpg",
+      "college_name": "Feni Computer Institute",
+      "admission_dates": "13-6-2023",
+      "events": "Career Events",
+      "research_history": "Feni Computer Institute, also known as FCI) is the first and only ICT based polytechnic institute for Diploma in Engineering courses in Bangladesh. It is situated in Feni Sadar Upazila of Feni City. Founded in 2003, It is directed under Directorate of Technical Education. Every year, around 300 students get accepted to their Diploma in Engineering programs to study about Information Technology. FCI is a member of Asia-Pac ific Economic Cooperation (APEC).",
+      "sports": "Football, Carrom"
+    }
+  ]
