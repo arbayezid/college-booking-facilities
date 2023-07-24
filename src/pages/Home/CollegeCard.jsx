@@ -3,19 +3,28 @@ import { Link } from "react-router-dom";
 
 const CollegeCard = () => {
     const [cards, setCards] = useState([])
+    const [searchText, setSearchText] = useState("")
 
     useEffect(() => {
-        fetch('https://task1-server-eight.vercel.app/college')
+        fetch('https://task1-server-arbayezid.vercel.app/college')
             .then(res => res.json())
             .then(data => setCards(data))
     }, [])
 
+    const handleSearch = () => {
+        fetch(`https://task1-server-arbayezid.vercel.app/getCardByName/${searchText}`)
+            .then(res => res.json())
+            .then(data => {
+                setCards(data)
+            })
+    }
+
     return (
         <div>
             <div className="search-box text-center my-10">
-                <input type="text" className="p-3 rounded-lg" placeholder='Type here'
-                />
-                <button className='btn rounded-lg ml-2'>Search</button>
+                <input onChange={(event) => setSearchText(event.target.value)} type="text" className="p-3 rounded-lg" placeholder='Type here'
+                />{" "}
+                <button className='btn rounded-lg ml-2' onClick={handleSearch}>Search</button>
             </div>
             <div className="grid lg:grid-cols-3">
                 {

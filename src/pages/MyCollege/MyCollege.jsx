@@ -4,7 +4,7 @@ const MyCollege = () => {
     const [appliedColleges, setAppliedColleges] = useState([])
 
     useEffect(() => {
-        fetch('https://task1-server-eight.vercel.app/applyCollege')
+        fetch('https://task1-server-arbayezid.vercel.app/applyCollege')
             .then(res => res.json())
             .then(data => setAppliedColleges(data))
     }, [])

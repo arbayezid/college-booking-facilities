@@ -28,7 +28,7 @@ const router = createBrowserRouter([
         {
             path: '/:id',
             element: <PrivateRoute><SingleCardDetails></SingleCardDetails></PrivateRoute>,
-            loader: () => fetch('https://task1-server-eight.vercel.app/college')
+            loader: () => fetch('https://task1-server-arbayezid.vercel.app/college')
         },
         {
           path: '/admission',
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
         {
           path: '/admission/:id',
           element: <PrivateRoute><AdmissionDetails></AdmissionDetails></PrivateRoute>,
-          loader: () => fetch('https://task1-server-eight.vercel.app/college')
+          loader: () => fetch('https://task1-server-arbayezid.vercel.app/college')
         },
         {
           path: '/myCollege',

@@ -21,7 +21,7 @@ const AdmissionDetails = () => {
     const onSubmit = data => {
         console.log(data);
 
-        fetch('https://task1-server-eight.vercel.app/applyCollege', {
+        fetch('https://task1-server-arbayezid.vercel.app/applyCollege', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
