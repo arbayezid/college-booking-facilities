@@ -5,6 +5,7 @@ import SingleCardDetails from "../pages/Home/SingleCardDetails";
 import College from "../pages/Colleges/College";
 import Admission from "../pages/Admission/Admission";
 import AdmissionDetails from "../pages/Admission/AdmissionDetails";
+import MyCollege from "../pages/MyCollege/MyCollege";
 
 const router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
           path: '/admission/:id',
           element: <AdmissionDetails></AdmissionDetails>,
           loader: () => fetch('http://localhost:5000/college')
+        },
+        {
+          path: '/myCollege',
+          element: <MyCollege></MyCollege>
         }
       ]
     },

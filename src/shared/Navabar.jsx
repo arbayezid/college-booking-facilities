@@ -6,7 +6,7 @@ const Navabar = () => {
         <li><Link>Home</Link></li>
         <li><Link to='/colleges'>Colleges</Link></li>
         <li><Link to='/admission'>Admission</Link></li>
-        <li><Link to='/'>My College</Link></li>
+        <li><Link to='/myCollege'>My College</Link></li>
 
     </>
 

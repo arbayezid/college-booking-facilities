@@ -51,7 +51,7 @@ const AdmissionDetails = () => {
                 <div className='grid grid-cols-2 gap-5'>
                     <input className='p-2 rounded-lg '  {...register("name")} placeholder='Enter Candidate Name' required />
                     
-                    <input className='p-2 rounded-lg ' defaultValue={data.college_name} {...register("collegeName")} placeholder='Enter College Name' required />
+                    <input className='p-2 rounded-lg ' defaultValue={data.college_name} {...register("collegeName")} placeholder='Enter College Name' required/>
 
                     <input className='p-2 rounded-lg '  {...register("subject")} placeholder='Enter Subject Name' required />
 
