@@ -6,6 +6,9 @@ import College from "../pages/Colleges/College";
 import Admission from "../pages/Admission/Admission";
 import AdmissionDetails from "../pages/Admission/AdmissionDetails";
 import MyCollege from "../pages/MyCollege/MyCollege";
+import Register from "../pages/LoginInfo/Register";
+import Login from "../pages/LoginInfo/Login";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -22,7 +25,7 @@ const router = createBrowserRouter([
         },
         {
             path: '/:id',
-            element: <SingleCardDetails></SingleCardDetails>,
+            element: <PrivateRoute><SingleCardDetails></SingleCardDetails></PrivateRoute>,
             loader: () => fetch('http://localhost:5000/college')
         },
         {
@@ -31,12 +34,20 @@ const router = createBrowserRouter([
         },
         {
           path: '/admission/:id',
-          element: <AdmissionDetails></AdmissionDetails>,
+          element: <PrivateRoute><AdmissionDetails></AdmissionDetails></PrivateRoute>,
           loader: () => fetch('http://localhost:5000/college')
         },
         {
           path: '/myCollege',
           element: <MyCollege></MyCollege>
+        },
+        {
+          path: '/register',
+          element: <Register></Register>
+        },
+        {
+          path: '/login',
+          element: <Login></Login>
         }
       ]
     },
