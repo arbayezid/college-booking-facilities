@@ -25,5 +25,23 @@
       "events": "Career Events",
       "research_history": "Feni Computer Institute, also known as FCI) is the first and only ICT based polytechnic institute for Diploma in Engineering courses in Bangladesh. It is situated in Feni Sadar Upazila of Feni City. Founded in 2003, It is directed under Directorate of Technical Education. Every year, around 300 students get accepted to their Diploma in Engineering programs to study about Information Technology. FCI is a member of Asia-Pac ific Economic Cooperation (APEC).",
       "sports": "Football, Carrom"
+    },
+    {
+      "_id": "64bb809493dedfc2cb8d9233",
+      "college_image": "https://i.ibb.co/sySSRSF/bogura.jpg",
+      "college_name": "Bogura Polytechnic Institute",
+      "admission_dates": "20-6-2023",
+      "events": "Devate Events",
+      "research_history": "Feni Computer Institute, also known as FCI) is the first and only ICT based polytechnic institute for Diploma in Engineering courses in Bangladesh. It is situated in Feni Sadar Upazila of Feni City. Founded in 2003, It is directed under Directorate of Technical Education. Every year, around 300 students get accepted to their Diploma in Engineering programs to study about Information Technology. FCI is a member of Asia-Pac ific Economic Cooperation (APEC).",
+      "sports": "Football, Badminton"
+    },
+    {
+      "_id": "64bb809493dedfc2cb8d9222",
+      "college_image": "https://i.ibb.co/bv75Wyq/chattogram.jpg",
+      "college_name": "Chattogram Polytechnic Institute",
+      "admission_dates": "14-5-2023",
+      "events": "Coocking Class",
+      "research_history": "Feni Computer Institute, also known as FCI) is the first and only ICT based polytechnic institute for Diploma in Engineering courses in Bangladesh. It is situated in Feni Sadar Upazila of Feni City. Founded in 2003, It is directed under Directorate of Technical Education. Every year, around 300 students get accepted to their Diploma in Engineering programs to study about Information Technology. FCI is a member of Asia-Pac ific Economic Cooperation (APEC).",
+      "sports": "Cricket, Carrom"
     }
   ]

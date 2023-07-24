@@ -5,7 +5,7 @@ const CollegeCard = () => {
     const [cards, setCards] = useState([])
 
     useEffect(() => {
-        fetch('collegeInfo.json')
+        fetch('http://localhost:5000/college')
             .then(res => res.json())
             .then(data => setCards(data))
     }, [])
@@ -19,7 +19,7 @@ const CollegeCard = () => {
             </div>
             <div className="grid lg:grid-cols-3">
                 {
-                    cards.map(singleCard => <div key={singleCard._id} className="card w-96 bg-base-100 shadow-xl m-5 relative">
+                    cards.slice(0,3).map(singleCard => <div key={singleCard._id} className="card w-96 bg-base-100 shadow-xl m-5 relative">
                         <figure><img src={singleCard.college_image} alt="Shoes" className="h-[300px] w-full" /></figure>
                         <div className="card-body ">
                             <h2 className="card-title text-gray-500">Name: {singleCard.college_name}</h2>
