@@ -5,7 +5,7 @@ const CollegeCard = () => {
     const [cards, setCards] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/college')
+        fetch('https://task1-server-eight.vercel.app/college')
             .then(res => res.json())
             .then(data => setCards(data))
     }, [])

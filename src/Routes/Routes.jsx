@@ -9,11 +9,13 @@ import MyCollege from "../pages/MyCollege/MyCollege";
 import Register from "../pages/LoginInfo/Register";
 import Login from "../pages/LoginInfo/Login";
 import PrivateRoute from "./PrivateRoute";
+import ErrorPage from "../components/ErrorPage";
 
 const router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       children: [
         {
             path: '/',
@@ -26,7 +28,7 @@ const router = createBrowserRouter([
         {
             path: '/:id',
             element: <PrivateRoute><SingleCardDetails></SingleCardDetails></PrivateRoute>,
-            loader: () => fetch('http://localhost:5000/college')
+            loader: () => fetch('https://task1-server-eight.vercel.app/college')
         },
         {
           path: '/admission',
@@ -35,7 +37,7 @@ const router = createBrowserRouter([
         {
           path: '/admission/:id',
           element: <PrivateRoute><AdmissionDetails></AdmissionDetails></PrivateRoute>,
-          loader: () => fetch('http://localhost:5000/college')
+          loader: () => fetch('https://task1-server-eight.vercel.app/college')
         },
         {
           path: '/myCollege',
